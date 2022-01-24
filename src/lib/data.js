@@ -112,7 +112,7 @@ export const courses = {
   title: "Courses",
   courses: [ 
     {name:"Intro to Software Engineering", code: "CSCI 1111"},
-    {name:"second", code: "CSCI 2222"},
+    {name:"Database Systems", code: "CSCI 1100"},
     {name:"third", code: "CSCI 3333"},
     {name:"fourth", code: "CSCI 4444"},
     {name:"fifth", code: "CSCI 5555"},
