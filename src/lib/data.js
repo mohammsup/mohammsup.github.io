@@ -50,15 +50,15 @@ export const timeline = {
   title: "Timeline",
   items: [
     { year: 2016 },
-    { a: "Bachelor of Science (Honors) in Computer Science", b: "indigo", c: "Data Science & Artificial Intelligence - International Islamic University Malaysia, Malaysia", cgpa: 3.68, right: false, month: "September"},
+    { a: "Bachelor of Science (Honors) in Computer Science", b: "bg-indigo-400", c: "Data Science & Artificial Intelligence - International Islamic University Malaysia, Malaysia", cgpa: 3.68, right: false, month: "September"},
     { year: 2020 },
-    { a: "Schlumberger KL Finance Hub, Malaysia " , b: "orange", c: "Data Analyst - Data & Analytics Department", right: true, month: "January"},
-    { a: "Zarty Business Services, Malaysia" , b: "red", c: "Data Analyst - IT Team", right: true, month: "October"},
-    { a: "Master of Business Intelligence & Analytics" , b: "cyan", c: "International Islamic University Malaysia, Malaysia", cgpa: 3.96, right: false, month: "October"},
+    { a: "Schlumberger KL Finance Hub, Malaysia " , b: "bg-orange-400", c: "Data Analyst - Data & Analytics Department", right: true, month: "January"},
+    { a: "Zarty Business Services, Malaysia" , b: "bg-red-400", c: "Data Analyst - IT Team", right: true, month: "October"},
+    { a: "Master of Business Intelligence & Analytics" , b: "bg-cyan-400", c: "International Islamic University Malaysia, Malaysia", cgpa: 3.96, right: false, month: "October"},
     { year: 2021 },
-    { a: "Aduka Analytics Sdn Bhd, Malaysia" , b: "purple", c: "Data Scientist (Research Associate) - Data & Analytics Team <br> Scrum Master", right: true, month: "February"},
+    { a: "Aduka Analytics Sdn Bhd, Malaysia" , b: "bg-purple-400", c: "Data Scientist (Research Associate) - Data & Analytics Team <br> Scrum Master", right: true, month: "February"},
     { year: 2022 },
-    { a: "Master of Science in Computer Science" , b: "gray", c: "Lakehead University, Ontario, Canada", right: false, month: "January"},
+    { a: "Master of Science in Computer Science" , b: "bg-gray-400", c: "Lakehead University, Ontario, Canada", right: false, month: "January"},
   ]
 }
 
