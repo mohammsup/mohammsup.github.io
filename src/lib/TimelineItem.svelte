@@ -2,7 +2,7 @@
   export let a: string = "";
   export let b: string = "";
   export let c: string = "";
-  export let d: string = “”;
+  export let d: string = "";
   export let cgpa = 0;
   export let right: boolean = false;
   export let month: string = "";
