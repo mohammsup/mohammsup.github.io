@@ -39,7 +39,7 @@ export const about = {
 export const skills = {
   title: "Skills",
   items: [
-    { a: "Machine Learning & Artificial Intelligence", b: "ai.png", c: "I have worked on many projects in ML and AI throughout my academic and professional career. I spent a few months developing a machine learning model on Time-Series model for Aduka. I have experience using Tensorflow, PyTorch, and Keras." },
+    { a: "Artificial Intelligence (ML + DL)", b: "ai.png", c: "I have worked on many projects in ML and AI throughout my academic and professional career. I spent a few months developing a machine learning model on Time-Series model for Aduka. I have experience using Tensorflow, PyTorch, and Keras. I am currently exploring deep learning projects for real-life applications." },
     { a: "Big Data", b: "data.png", c: "I am very passionate about Big Data. With over three years experience, I have been disseminating, extracting, and manipulating various forms of data." },
     { a: "Data Visualization", b: "vis.png", c: "I have the most experience in data visualization. When creating visuals, we must realize that while we might understand most visualizations, not everyone has the same skills. As such, each visualization must be tailored specifically to its users. I have extensive experience in Data Visualization tools; Microsoft Power BI, Google Data Studio, and SAP."},
   ]
@@ -58,7 +58,7 @@ export const timeline = {
     { year: 2021 },
     { a: "Aduka Analytics Sdn Bhd, Malaysia" , b: "bg-purple-400", c: "Data Scientist (Research Associate) - Data & Analytics Team <br> Scrum Master", d:"Lead Data Scientist in the Data and Analytics team. Development and optimization of Time-Series model for predicting house prices in Malaysia. Managing end-to-end processes in the data pipeline. Introduced and implemented the Agile Scrum methodology in Aduka Analytics. Trained all teams and undertook the responsibility of Agile Coach and Scrum Master.", right: true, month: "February"},
     { year: 2022 },
-    { a: "Master of Science in Computer Science" , b: "bg-gray-400", c: "Lakehead University, Ontario, Canada", d:"Started a thesis-based master's at Lakehead University in January 2022. Currently taking Deep Learning and Big Data courses.",right: false, month: "January"},
+    { a: "Master of Science in Computer Science" , b: "bg-sky-400", c: "Lakehead University, Ontario, Canada", d:"Started a thesis-based master's at Lakehead University in January 2022. Currently taking Deep Learning and Big Data courses.",right: false, month: "January"},
   ]
 }
 
@@ -102,8 +102,8 @@ export const projects = {
 export const certifications = {
   title: "Certifications",
   certs: [
-    {title: "Machine Learning by Andrew Ng (Stanford University)", img: "https://dummyimage.com/500x200" },
-    {title: "ASEAN Data Science Explorers 2021", img: "https://dummyimage.com/500x200" },
+    {title: "Machine Learning by Andrew Ng (Stanford University)", img: "/coursera.png" },
+    {title: "ASEAN Data Science Explorers 2021", img: "/aseands.png" },
   ]
 }
 
@@ -116,7 +116,7 @@ export const courses = {
     {name:"Mathematics for Computing I", code: "CSC 1701"},
     {name:"Elements of Programming", code: "CSC 1100"},
     {name:"Object Oriented Programming", code: "CSC 1103"},
-    {name:"Introduction to Computer Organization", code: "CSC 1401"},
+    {name:"Intro to Computer Organization", code: "CSC 1401"},
     {name:"Probability and Statistics", code: "CSC 1706"},
     {name:"Systems Analysis and Design", code: "INFO 2401"},
     {name:"Data Structure and Algorithms I", code: "CSC 2104"},
@@ -127,7 +127,7 @@ export const courses = {
     {name:"Data Structures and Algorithm II", code: "CSC 3102"},
     {name:"Computer Architecture & Assembly Language", code: "CSC 3402"},
     {name:"Mathematics for Computing III", code: "CSC 3701"},
-    {name:"Introduction to Quantum Computing", code: "CSC 4102"},
+    {name:"Intro to Quantum Computing", code: "CSC 4102"},
     {name:"Machine Learning", code: "CSC 3304"},
     {name:"Data Science", code: "CSC 3305"},
     {name:"Computation and Complexity", code: "CSC 4101"},
@@ -136,9 +136,9 @@ export const courses = {
     {name:"Natural Language Processing", code: "CSC 4309"},
     {name:"Database Programming", code: "INFO 2103"},
     {name:"Big Data Across Verticals and Domains", code: "CBIA 7101"},
+    {name:"Data Warehousing and Modelling", code: "CBIA 7103"},
     {name:"Data Quality", code: "CBIA 7102"},
     {name:"Unstructured Data Analytics", code: "CBIA 7202"},
-    {name:"Data Warehousing and Modelling", code: "CBIA 7103"},
     {name:"Tools for Data Science", code: "CBIA 7201"},
     {name:"Visualization for Decision Making", code: "CBIA 7203"},
     {name:"Big Data", code: "COMP-5012-WB"},
