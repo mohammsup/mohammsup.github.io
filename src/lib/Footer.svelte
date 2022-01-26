@@ -5,7 +5,7 @@
 <hr class="bg-zinc-800" />
 <footer class="items-center p-4 flex justify-end footer bg-neutral text-neutral-content ">
 	<div class="items-center grid-flow-col mr-auto">
-		<p>Copyright © 2022 - All right reserved</p>
+		<p>Copyright © Mohammad Bin Yousuf 2022 - All right reserved</p>
 	</div>
   <div class="flex gap-x-5">
     <a href="https://twitter.com/mohamsup" target="_blank">

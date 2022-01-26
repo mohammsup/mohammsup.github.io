@@ -27,9 +27,9 @@ export const hero = {
 export const about = {
   title: "About Me",
   subtitle: `
-  Hi there, my name is Mohammad. I am a recent Computer Science graduate from the International Islamic University Malaysia (IIUM). I am a researcher by heart and I like to focus on understanding how to solve real-life issues/problems using Machine Learning and Data Science. My topics of interest includes Big Data and Artificial Intelligent Systems/Agents. I have recently developed an interest in Health Informatics and its implications on the advancement of modern healthcare.
+  Hi there, my name is Mohammad. I am a graduate from the International Islamic University Malaysia (IIUM). I am a researcher by heart and I focus on understanding how to solve real-life issues/problems using Machine Learning and Data Science. My topics of interest includes Big Data and Artificial Intelligent Systems/Agents. I have recently developed an interest in Health Informatics and its implications on the advancement of modern healthcare.
   <br /><br />
-  I am currently working on a project that is utilising the data from the Malaysian Ministry of Health to further increase the transparency between the Government and the Public. The project covers data extraction, storage, manipulation, visualisation, and predictive & prescriptive analytics.
+  I have recently completed a thesis that is utilising the data from the Malaysian Ministry of Health to further understand the present and future of the pandemic in Malaysia while also increasing the transparency and trust between the Government and the Public. The thesis covers data extraction, storage, manipulation, visualisation, and predictive & prescriptive analytics. The thesis is currently being prepared for publication under the supervision of Dr Raini Hassan.
   <br /><br />
   I am a curious person. I love exploring and spontaneous adventures.
   `
@@ -39,9 +39,9 @@ export const about = {
 export const skills = {
   title: "Skills",
   items: [
-    { a: "Artificial Intelligence", b: "ai.png", c: "ai" },
-    { a: "Big Data", b: "data.png", c: "bigdata" },
-    { a: "Data Visualization", b: "vis.png", c: "Datavis"},
+    { a: "Machine Learning & Artificial Intelligence", b: "ai.png", c: "I have worked on many projects in ML and AI throughout my academic and professional career. I spent a few months developing a machine learning model on Time-Series model for Aduka. I have experience using Tensorflow, PyTorch, and Keras." },
+    { a: "Big Data", b: "data.png", c: "I am very passionate about Big Data. With over three years experience, I have been disseminating, extracting, and manipulating various forms of data." },
+    { a: "Data Visualization", b: "vis.png", c: "I have the most experience in data visualization. When creating visuals, we must realize that while we might understand most visualizations, not everyone has the same skills. As such, each visualization must be tailored specifically to its users. I have extensive experience in Data Visualization tools; Microsoft Power BI, Google Data Studio, and SAP."},
   ]
 }
 
@@ -50,15 +50,15 @@ export const timeline = {
   title: "Timeline",
   items: [
     { year: 2016 },
-    { a: "Bachelor of Science (Honors) in Computer Science", b: "bg-indigo-400", c: "Data Science & Artificial Intelligence - International Islamic University Malaysia, Malaysia", cgpa: 3.68, right: false, month: "September"},
+    { a: "Bachelor of Science (Honors) in Computer Science", b: "bg-indigo-400", c: "Data Science & Artificial Intelligence - International Islamic University Malaysia, Malaysia", d: "Graduated with a First-Class Honors from IIUM. Specialization in Data Science and Artificial Intelligence. Involved in many extra-curricular activities throughout the degree." ,cgpa: 3.68, right: false, month: "September"},
     { year: 2020 },
-    { a: "Schlumberger KL Finance Hub, Malaysia " , b: "bg-orange-400", c: "Data Analyst - Data & Analytics Department", right: true, month: "January"},
-    { a: "Zarty Business Services, Malaysia" , b: "bg-red-400", c: "Data Analyst - IT Team", right: true, month: "October"},
-    { a: "Master of Business Intelligence & Analytics" , b: "bg-cyan-400", c: "International Islamic University Malaysia, Malaysia", cgpa: 3.96, right: false, month: "October"},
+    { a: "Schlumberger KL Finance Hub, Malaysia " , b: "bg-orange-400", c: "Data Visualization Analyst Intern - Data & Analytics Department", d:"Joined in January 2020 as a Data Visualization Analyst Intern. Spent 9 months working alongside talented individuals, in the Data & Analytics department that catered to the data needs of the entire Schlumberger organization. Helped with extracting and manipulating data with ETL tools. As an internship project, I developed a workflow integrating Microsoft Power BI, Powershell scripts, and Alteryx to automatically vet Power BI dashboards before publishing. Worked with a team that supports the data needs of multiple departments, systems, and products.",right: true, month: "January"},
+    { a: "Zarty Business Services, Malaysia" , b: "bg-red-400", c: "Data Analyst - IT Team", d:"Lead Data Analyst for a revamp project for the Mofaz Group of Companies. Managed internal data visualization projects at a growing start-up.", right: true, month: "October"},
+    { a: "Master of Business Intelligence & Analytics" , b: "bg-cyan-400", c: "International Islamic University Malaysia, Malaysia", d:"Enrolled to gain a more business perspective of data. Achieved excellent grades throughout the program. Completed a thesis, currently in preparation of publication under supervision of the Head of the Computer Science department.", cgpa: 3.96, right: false, month: "October"},
     { year: 2021 },
-    { a: "Aduka Analytics Sdn Bhd, Malaysia" , b: "bg-purple-400", c: "Data Scientist (Research Associate) - Data & Analytics Team <br> Scrum Master", right: true, month: "February"},
+    { a: "Aduka Analytics Sdn Bhd, Malaysia" , b: "bg-purple-400", c: "Data Scientist (Research Associate) - Data & Analytics Team <br> Scrum Master", d:"Lead Data Scientist in the Data and Analytics team. Development and optimization of Time-Series model for predicting house prices in Malaysia. Managing end-to-end processes in the data pipeline. Introduced and implemented the Agile Scrum methodology in Aduka Analytics. Trained all teams and undertook the responsibility of Agile Coach and Scrum Master.", right: true, month: "February"},
     { year: 2022 },
-    { a: "Master of Science in Computer Science" , b: "bg-gray-400", c: "Lakehead University, Ontario, Canada", right: false, month: "January"},
+    { a: "Master of Science in Computer Science" , b: "bg-gray-400", c: "Lakehead University, Ontario, Canada", d:"Started a thesis-based master's at Lakehead University in January 2022. Currently taking Deep Learning and Big Data courses.",right: false, month: "January"},
   ]
 }
 
@@ -78,7 +78,7 @@ export const experience = {
   rows: [
     {name: "Langauges", items: ["Python", "C++", "C", "Java"]},
     {name: "Database", items: ["SQL Server", "MySQL", "MariaDB"]},
-    {name: "BI Tools", items: ["Microsoft Power BI", "Google Data Studio"]},
+    {name: "BI Tools", items: ["Microsoft Power BI", "Google Data Studio", "SAP"]},
     {name: "Framework", items: ["Keras", "TensorFlow","Azure Cloud Services", "Laravel"]},
   ],
   lastrow: { name: "Software", items: ["Alteryx", "SSMS","Visual Studio Code", "Adobe Illustrator", "Adobe Premiere Pro", "WAMP Stack"] }
@@ -111,11 +111,37 @@ export const certifications = {
 export const courses = {
   title: "Courses",
   courses: [ 
-    {name:"Intro to Software Engineering", code: "CSCI 1111"},
-    {name:"Database Systems", code: "CSCI 1100"},
-    {name:"third", code: "CSCI 3333"},
-    {name:"fourth", code: "CSCI 4444"},
-    {name:"fifth", code: "CSCI 5555"},
-    {name:"sixth", code: "CSCI 6666"},    
+    {name:"Intro to Software Engineering", code: "CSC 1501"},
+    {name:"Database Systems", code: "INFO 1103"},
+    {name:"Mathematics for Computing I", code: "CSC 1701"},
+    {name:"Elements of Programming", code: "CSC 1100"},
+    {name:"Object Oriented Programming", code: "CSC 1103"},
+    {name:"Introduction to Computer Organization", code: "CSC 1401"},
+    {name:"Probability and Statistics", code: "CSC 1706"},
+    {name:"Systems Analysis and Design", code: "INFO 2401"},
+    {name:"Data Structure and Algorithms I", code: "CSC 2104"},
+    {name:"Computer Networking", code: "CSC 2201"},
+    {name:"Mathematics for Computing II", code: "CSC 2706"},
+    {name:"Intelligent Systems", code: "CSC 2301"},
+    {name:"Operating System", code: "CSC 3401"},
+    {name:"Data Structures and Algorithm II", code: "CSC 3102"},
+    {name:"Computer Architecture & Assembly Language", code: "CSC 3402"},
+    {name:"Mathematics for Computing III", code: "CSC 3701"},
+    {name:"Introduction to Quantum Computing", code: "CSC 4102"},
+    {name:"Machine Learning", code: "CSC 3304"},
+    {name:"Data Science", code: "CSC 3305"},
+    {name:"Computation and Complexity", code: "CSC 4101"},
+    {name:"Cryptography", code: "CSC 4604"},
+    {name:"Big Data Analytics", code: "CSC 3303"},
+    {name:"Natural Language Processing", code: "CSC 4309"},
+    {name:"Database Programming", code: "INFO 2103"},
+    {name:"Big Data Across Verticals and Domains", code: "CBIA 7101"},
+    {name:"Data Quality", code: "CBIA 7102"},
+    {name:"Unstructured Data Analytics", code: "CBIA 7202"},
+    {name:"Data Warehousing and Modelling", code: "CBIA 7103"},
+    {name:"Tools for Data Science", code: "CBIA 7201"},
+    {name:"Visualization for Decision Making", code: "CBIA 7203"},
+    {name:"Big Data", code: "COMP-5012-WB"},
+    {name:"Deep Learning", code: "COMP-5421-WDE"},
   ]
 }

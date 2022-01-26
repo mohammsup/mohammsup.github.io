@@ -2,6 +2,7 @@
   export let a: string = "";
   export let b: string = "";
   export let c: string = "";
+  export let d: string = “”;
   export let cgpa = 0;
   export let right: boolean = false;
   export let month: string = "";
@@ -29,8 +30,7 @@
       </p>
       <hr class="mx-4 border-zinc-800 mt-4 mb-2" />
       <span class="text-xs font-semibold tracking-tight">
-
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tenetur officia fugiat veritatis mollitia necessitatibus asperiores ut obcaecati quo numquam?
+        {d}
       </span>
       {/if}
     </div>
