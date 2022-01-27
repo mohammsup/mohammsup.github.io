@@ -9,7 +9,7 @@
   <div class="flex px-40 gap-x-20 h-full mt-32 items-center justify-center">
     {#each certifications.certs as cert}
       <div class="w-full text-center">
-        <img src={cert.img} alt="">
+        <img src={cert.img} alt="" width={500} class="object-contain  min-h-[200px]">
         <div class="my-2 font-semibold tracking-tigher">{cert.title}</div>
       </div>
     {/each}
