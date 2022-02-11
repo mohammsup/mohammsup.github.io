@@ -28,6 +28,6 @@
     </div>
   </div>
   <div class="flex w-2/5 mt-10 lg:mt-0 justify-end items-center">
-    <img src={hero.img} alt="" class="">
+    <img src={hero.img} alt="" width={420} class="object-contain  min-h-[200px]">
   </div>
 </div>

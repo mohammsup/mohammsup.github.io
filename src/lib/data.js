@@ -18,7 +18,7 @@ export const buttons = {
 export const hero = {
   title: "Mohammad Bin Yousuf",
   subtitle: "Aspiring Machine Learning Research Engineer with a focus on Artificial Intelligence.",
-  img: "https://dummyimage.com/450"
+  img: "/header.jpeg"
 }
 
 
